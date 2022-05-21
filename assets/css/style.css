@@ -247,7 +247,7 @@ footer{
 /* Media Queries */
 
 /* For larger to medium screen sizes 1200px wide and down */
-@media screen and (max-width:1200px)  {
+@media screen and (max-width:1200px){
     #club-ethos{
         width: 65%;
         height: 1200px;
@@ -295,8 +295,6 @@ hr{
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
-
 #cover-text{
     left:0;
 }
@@ -318,14 +316,14 @@ hr{
     text-align: center;
     padding: 0 20px;
 }
-
+}
 #photos{
     column-count: 3;
 }
 
 /* For small screen sizes 800px and down */
 
-@media screen and(max-width:800px) {
+@media only screen and(max-width:800px) {
     #photos{
         column-count: 2;
     }
